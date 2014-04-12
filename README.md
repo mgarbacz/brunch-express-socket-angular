@@ -31,7 +31,7 @@ You should get an application structure in there that looks like this:
     socket.js
     package.json
     
-The `brunch new` command automatically used NPM to download the dependencies that are in `package.json`. This includes JavaScript compilation and minifying, CSS compilation and minifying, JavaScript linting, and auto-reload (which will auto refresh the browser window when it finds a change in the project structure), as well as Express.js and Socket.io.
+The `brunch new` command automatically used NPM to download the dependencies that are in `package.json`. This includes JavaScript linting, compilation, and minifying, CSS compilation and minifying, and auto-reload (which will auto refresh the browser window when it finds a change in the project structure), as well as `Express.js` and `Socket.io`.
 
 There are three commands needed to run all the tools
 
@@ -41,9 +41,9 @@ There are three commands needed to run all the tools
     
 You will need to run each of these in a separate Terminal/Command Line window or tab. That will let them run, as well as display messages on their activity.
 
-You will write your front-end application in the `app` folder, following Angular.js documentation on how to write an app. If you keep `brunch watch` running, your browser window will automatically refresh when Brunch detects changes in the files and rebuilds them.
+You will write your front-end application in the `app` folder, following `Angular.js` documentation on how to write an app. If you keep `brunch watch` running, your browser window will automatically refresh when Brunch detects changes in the files and rebuilds them.
 
-If you need to add any sort of API functionality, you can add it to the `server.js` file. You would follow Express.js documentation in order to know how to create the functionality. You will have to restart the `node server.js` to refresh changes.
+If you need to add any sort of API functionality, you can add it to the `server.js` file. You would follow `Express.js` documentation in order to know how to create the functionality. You will have to restart the `node server.js` to refresh changes.
 
 You will write your server-side websockets code in the `socket.js` file, following the Socket.io documentation. All front-end websockets code would go in a JavaScript file of your choosing in the `app` folder. You will need to restart the `node socket.js` to refresh changes.
 
