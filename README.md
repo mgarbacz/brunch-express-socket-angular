@@ -16,20 +16,20 @@ Now, lets use Brunch to generate the skeleton of our web app. I've modified my f
     
 You should get an application structure in there that looks like this:
 
-    /app
-      /assets
+    /app                        // Any JS in `app` is compiled to `public/js/app.js`
+      /assets                   // Anything in `assets` is copied over to `public` verbatim
         index.html
-      /styles
+      /styles                   // Any CSS in `styles` is compiled to `public/ss/app.css`
         main.css
-      initialize.js
+      initialize.js             // Start all your other JavaScript from here
     /vendor
-      /scripts
+      /scripts                  // Any JS in `vendor/scripts` is compiled to `public/js/vendor.js`
         angular.js
         socket.io.js
-      /styles
-    server.js
-    socket.js
-    package.json
+      /styles                   // Any CSS in `vendor/styles` is compiled to `public/ss/vendor.css`
+    server.js                   // Static file server for public
+    socket.js                   // Beginning of a socket.io server
+    package.json                // NPM file (Google for details)
     
 The `brunch new` command automatically used NPM to download the dependencies that are in `package.json`. This includes JavaScript linting, compilation, and minifying, CSS compilation and minifying, and auto-reload (which will auto refresh the browser window when it finds a change in the project structure), as well as `Express.js` and `Socket.io`.
 
@@ -46,6 +46,10 @@ You will write your front-end application in the `app` folder, following `Angula
 If you need to add any sort of API functionality, you can add it to the `server.js` file. You would follow `Express.js` documentation in order to know how to create the functionality. You will have to restart the `node server.js` to refresh changes.
 
 You will write your server-side websockets code in the `socket.js` file, following the Socket.io documentation. All front-end websockets code would go in a JavaScript file of your choosing in the `app` folder. You will need to restart the `node socket.js` to refresh changes.
+
+Gist about how to include separate JavaScript files
+---------------------------------------------------
+https://gist.github.com/mgarbacz/767c6a0375ac8b074b75
 
 Brunch Warning
 --------------
