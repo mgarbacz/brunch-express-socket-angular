@@ -52,4 +52,4 @@ BEWARE
 
 Brunch is a finicky tool. It is fantastic for a real project because it eases so much pain. It takes a bit of time to learn and understand it's use, however. If you want to play it safe, I would avoid using it.
 
-Just create a `public` folder where all your HTML/CSS/JavaScript will go like you are used to. Pull down the `package.json` and `server.js` files from this project. Remove any dependency that says `xxx-brunch` from the `package.json`. You can then proceed with using the rest of the stack under the guide of their documentation.
+If you are avoiding Brunch, you can find your own path using the rest of the stack and it's documentation.
