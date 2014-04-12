@@ -47,9 +47,9 @@ If you need to add any sort of API functionality, you can add it to the `server.
 
 You will write your server-side websockets code in the `socket.js` file, following the Socket.io documentation. All front-end websockets code would go in a JavaScript file of your choosing in the `app` folder. You will need to restart the `node socket.js` to refresh changes.
 
-BEWARE
-------
+Brunch Warning
+--------------
 
-Brunch is a finicky tool. It is fantastic for a real project because it eases so much pain. It takes a bit of time to learn and understand it's use, however. If you want to play it safe, I would avoid using it.
+Brunch is a finicky tool. It is fantastic for a real project because it eases so much pain. It takes a bit of time to learn and understand it's use, however. If you want to have a less automatic project build, you can skip using it.
 
-If you are avoiding Brunch, you can find your own path using the rest of the stack and it's documentation.
+If you are avoiding Brunch, you can find your own path using the rest of the stack and it's documentation. You will have to manually manage your CSS/JavaScript and making sure it is all included in your HTML. But you still get the power of the other parts of the stack - `Node.js`, NPM, `Angular.js`, `Express.js`, `Socket.io`
