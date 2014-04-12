@@ -7,7 +7,7 @@
     "socket.io": "0.9.x",
     "express": "3.x",
     
-    "javascript-brunch": ">= 1.0 < 1.8",
+    "javascript-brunch": "1.7.0",
     "jshint-brunch": ">= 1.0 < 1.8",
 
     "css-brunch": ">= 1.0 < 1.8",
