@@ -47,3 +47,9 @@ If you need to add any sort of API functionality, you can add it to the `server.
 
 You will write your server-side websockets code in the `socket.js` file, following the Socket.io documentation. All front-end websockets code would go in a JavaScript file of your choosing in the `app` folder. You will need to restart the `node socket.js` to refresh changes.
 
+BEWARE
+------
+
+Brunch is a finicky tool. It is fantastic for a real project because it eases so much pain. It takes a bit of time to learn and understand it's use, however. If you want to play it safe, I would avoid using it.
+
+Just create a `public` folder where all your HTML/CSS/JavaScript will go like you are used to. Pull down the `package.json` and `server.js` files from this project. Remove any dependency that says `xxx-brunch` from the `package.json`. You can then proceed with using the rest of the stack under the guide of their documentation.
