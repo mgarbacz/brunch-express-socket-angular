@@ -1,3 +1,5 @@
+_Brunch is no longer maintained, so archived this project on October 29th, 2023._
+
 You will want to install `Node.js` as your server. Just hit their website and pull it down if you don't already have it installed. It will come bundled with NPM, which is the package manager.
 
 The full stack looks like so:
